@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 pub fn brackets_are_balanced(string: &str) -> bool {
     let list: Vec<char> = string.chars().collect();
     let mut stack: Vec<char> = vec![];
